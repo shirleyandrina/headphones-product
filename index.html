@@ -1,0 +1,128 @@
+<!-- Based on Product Landing Page by Brad Traversy (2019)
+see: https://www.youtube.com/watch?v=61R5kn_kYwY -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Headphones Product Page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">SONY</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section id="home" class="section-showcase">
+      <div class="container">
+        <div>
+          <h1>The headphones of the future.</h1>
+          <p>
+            The best noise cancelling processor with two high-performance processors and eight microphones.
+Exceptional sound quality with specially designed 30-mm driver unit.
+Superior noise-free calls with 2 x 2 beamforming microphones and noise reduction system.
+          </p>
+          <a href="#about" class="btn">Read More</a>
+        </div>
+        <img src="https://i.ibb.co/37Y74kv/showcase.jpg" alt="" />
+      </div>
+    </section>
+
+    
+    <section id="about" class="section-large-text">
+      <div class="overlay">
+        <div class="section-large-text-inner">
+          <h3>Loud & Clear</h3>
+          <h2>People Aren't Hearing All the Music</h2>
+          <p>
+           Music is a potent medium for conveying emotions, stories, and messages.
+            When people don't engage deeply with music, they may miss the emotional and intellectual aspects of a composition.
+             Musicians often pour their emotions and experiences into their work, and these can be overlooked by casual listeners.Listening with high quality sony headphones
+              can help listeners connect to the music even more deeply.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section-gallery">
+      <div class="gallery">
+        <img src="https://i.ibb.co/CHLBZnp/gal2323.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/4pBbhfY/gal39834.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/dGZvj75/gal4545.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/S6FVFNt/gal74744.jpg" alt="" class="big" />
+      </div>
+    </section>
+
+    
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Connect with us on social media.</h2>
+          <a href="http://instagram.com">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Subscribe</a></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Upgrade</a></li>
+            <li><a href="#">Exchange</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>Subscribe for more updates</p>
+          <form name="email-form" onsubmit="event.preventDefault()">
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail" /></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
